@@ -23,6 +23,8 @@
 
 import React from "react"
 import Parent from "./2.Props/3.Child-to-Child/Parent"
+import A from "./3.State/3.Props-Drilling/A"
+// import A from "./3.State/1.Local-State/1.Simple-Data/A"
 // import Parent from "./2.Props/2.Child-to-Parent/Parent"
 
 class App extends React.Component{
@@ -42,7 +44,9 @@ class App extends React.Component{
       {/* <Parent/> */}
       {/* <A/> */}
       {/* <Parent/> */}
-      <Parent/>
+      {/* <Parent/> */}
+      {/* <A/> */}
+      <A/>
     </div>
   }
 }

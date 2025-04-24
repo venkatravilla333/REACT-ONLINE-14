@@ -1,19 +1,19 @@
 import React, { useState } from 'react'
+import B from './B'
+import C from './C'
 
-function H() {
+function A() {
   let [x, setX] = useState(0)
-
+  
   let updateX = () => {
     setX(x+1)
   }
-  
-  console.log('render')
   return (
     <div>
-      <h3>H : {x}</h3>
-      <button onClick={updateX}>update x</button>
+      <B x={x} updateX={updateX } />
+      <C x= {x}  updateX={updateX }/>
     </div>
   )
 }
 
-export default H
+export default A

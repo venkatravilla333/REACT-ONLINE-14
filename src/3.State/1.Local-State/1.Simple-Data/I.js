@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function H() {
+function I() {
   let [x, setX] = useState(0)
 
   let updateX = () => {
@@ -10,10 +10,10 @@ function H() {
   console.log('render')
   return (
     <div>
-      <h3>H : {x}</h3>
+      <h3>I : {x}</h3>
       <button onClick={updateX}>update x</button>
     </div>
   )
 }
 
-export default H
+export default I

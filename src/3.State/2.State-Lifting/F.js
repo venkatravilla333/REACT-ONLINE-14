@@ -1,12 +1,12 @@
 import React from 'react'
-import I from './I'
+import H from './H'
 
-function E() {
+function F() {
   return (
     <div>
-      <I/>
+      <H/>
     </div>
   )
 }
 
-export default E
+export default F

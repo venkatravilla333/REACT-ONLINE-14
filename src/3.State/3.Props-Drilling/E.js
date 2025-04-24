@@ -1,10 +1,11 @@
 import React from 'react'
 import I from './I'
 
-function E() {
+function E(props) {
+  console.log(props.x)
   return (
     <div>
-      <I/>
+      <I x={props.x} updateX={props.updateX} />
     </div>
   )
 }

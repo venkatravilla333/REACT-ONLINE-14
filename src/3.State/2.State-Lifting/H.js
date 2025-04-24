@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 
 function H() {
-  let [x, setX] = useState(0)
+  // let [x, setX] = useState(0)
 
-  let updateX = () => {
-    setX(x+1)
-  }
+  // let updateX = () => {
+  //   setX(x+1)
+  // }
   
   console.log('render')
   return (
