@@ -1,20 +1,20 @@
 import React, { useContext, useState } from 'react'
 
-import {nameCotext, x} from './A'
+import {countContext, nameCotext, x} from './A'
 
 function I(props) {
    
   // var value = x._currentValue
   
 
-  let value = useContext(x)
+  let { count, updateCount } = useContext(countContext)
   let name = useContext(nameCotext)
   
   return (
     <div>
-      <h3>I : {value} </h3>
+      <h3>I : {count} </h3>
       <h3>Name: {name}</h3>
-      <button >update x</button>
+      <button onClick={updateCount}>update count</button>
     </div>
   )
 }

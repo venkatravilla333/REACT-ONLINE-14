@@ -1,18 +1,18 @@
 import React, { useContext, useState } from 'react'
-import { colorCotext, x } from './A'
+import { colorCotext, countContext, x } from './A'
 
 function H(props) {
  
   // let value = x._currentValue
 
- var value = useContext(x)
+ var {count, updateCount} = useContext(countContext)
  var color = useContext(colorCotext)
   
   return (
     <div>
-      <h3>H : {value} </h3>
+      <h3>H : {count} </h3>
+      <button onClick={updateCount}>update count</button>
       <h3>H  color : {color} </h3>
-      <button>update x</button>
     </div>
   )
 }
