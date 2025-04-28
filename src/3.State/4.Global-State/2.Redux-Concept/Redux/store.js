@@ -1,22 +1,12 @@
-import { createStore } from 'redux'
+import { combineReducers, createStore } from 'redux'
+import { cakeReducer } from './cake/CakeReducer'
+import { curdReducer } from './curd/curdReducer'
 
 
-var initialState = {
-  noOfCakes : 100
-}
+let rootReducer = combineReducers({
+  cake: cakeReducer,
+  curd: curdReducer
+})
 
-let cakeReducer = (state = initialState, action) => {
-  console.log(action)
-  switch (action.type) {
-    case 'BUY_CAKE':
-      return {
-        noOfCakes: state.noOfCakes - 1
-      }
-      break;
-    default: 
-      return state
-  }
-}
-
-export var store = createStore(cakeReducer)
+export var store = createStore(rootReducer)
 console.log(store)
