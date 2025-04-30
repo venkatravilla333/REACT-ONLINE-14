@@ -23,7 +23,7 @@ function I() {
       <h3>I : No OF cakes: {noOfCakes}</h3>
       <button onClick={()=>dispatch(buyCake())}>Buy cake</button>
       <h3>I : No OF curds: {noOfCurds}</h3>
-      <button onClick={()=>dispatch(buyCurd())}>Buy cake</button>
+      <button onClick={()=>dispatch(buyCurd())}>Buy curd</button>
     </div>
   )
 }
