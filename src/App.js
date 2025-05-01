@@ -22,7 +22,9 @@
 // export default App
 
 import React from "react"
-import A from "./3.State/4.Global-State/3.Redux-Toolkit/React-Components/A"
+import A from "./3.State/4.Global-State/2.Context-Api-useReducer/A"
+// import Parent from "./3.State/1.Local-State/2.Complex-Data/Parent"
+// import A from "./3.State/4.Global-State/3.Redux-Toolkit/React-Components/A"
 // import A from "./3.State/4.Global-State/2.Redux-Concept/React-Components/A"
 // import A from "./3.State/4.Global-State/1.Context-Api/A"
 // import Parent from "./2.Props/3.Child-to-Child/Parent"
@@ -52,6 +54,8 @@ class App extends React.Component{
       {/* <A/> */}
       {/* <A/> */}
       {/* <A/> */}
+      {/* <A/> */}
+      {/* <Parent/> */}
       <A/>
     </div>
   }
