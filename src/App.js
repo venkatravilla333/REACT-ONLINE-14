@@ -22,7 +22,11 @@
 // export default App
 
 import React from "react"
-import A from "./3.State/4.Global-State/2.Context-Api-useReducer/A"
+import Parent from "./6.Map(loop-array)/Parent"
+// import Parent from "./5.Performance/1.Conditional-Rendering/Parent"
+// import Parent from "./5.Performance/2.Fragment/Parent"
+// import A from "./3.State/4.Global-State/2.Context-Api-useReducer/A"
+// import Parent from "./4.Destructuring/Parent"
 // import Parent from "./3.State/1.Local-State/2.Complex-Data/Parent"
 // import A from "./3.State/4.Global-State/3.Redux-Toolkit/React-Components/A"
 // import A from "./3.State/4.Global-State/2.Redux-Concept/React-Components/A"
@@ -41,7 +45,7 @@ class App extends React.Component{
     }
   }
   render() {
-    return <div>
+    return <React.Fragment>
       {/* <h2>App com: {this.state.name}</h2> */}
       {/* {new Child().render()} */}
       {/* <Child name={this.state.name} /> */}
@@ -56,8 +60,12 @@ class App extends React.Component{
       {/* <A/> */}
       {/* <A/> */}
       {/* <Parent/> */}
-      <A/>
-    </div>
+      {/* <A/> */}
+      {/* <Parent/> */}
+      {/* <Parent/> */}
+      {/* <Parent/> */}
+      <Parent/>
+    </React.Fragment>
   }
 }
 
