@@ -22,7 +22,14 @@
 // export default App
 
 import React from "react"
-import Parent from "./6.Map(loop-array)/Parent"
+import Parent from "./8.Portals/Parent"
+// import SignUp from "./7.CSS/3.Modules/SignUp"
+// import Login from "./7.CSS/3.Modules/Login"
+// import Parent from "./7.CSS/Css-BasedOn-Condition/Parent"
+// import Parent from "./6.Map(loop-array)/Parent"
+// import Inline from "./7.CSS/1.Inline/Inline"
+// import Login from "./7.CSS/2.Style-Sheet/Login"
+// import SignUp from "./7.CSS/2.Style-Sheet/SignUp"
 // import Parent from "./5.Performance/1.Conditional-Rendering/Parent"
 // import Parent from "./5.Performance/2.Fragment/Parent"
 // import A from "./3.State/4.Global-State/2.Context-Api-useReducer/A"
@@ -63,6 +70,13 @@ class App extends React.Component{
       {/* <A/> */}
       {/* <Parent/> */}
       {/* <Parent/> */}
+      {/* <Parent/> */}
+      {/* <Parent/> */}
+      {/* <Inline/> */}
+      {/* <SignUp/>
+      <Login/> */}
+      {/* <SignUp />
+      <Login/> */}
       {/* <Parent/> */}
       <Parent/>
     </React.Fragment>
