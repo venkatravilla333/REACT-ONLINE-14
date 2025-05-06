@@ -22,7 +22,12 @@
 // export default App
 
 import React from "react"
-import Parent from "./8.Portals/Parent"
+import Parent from "./9.Side-Effects/5.Api-Calls (get-request)/Parent"
+// import Parent from "./9.Side-Effects/3.Runs-Only-Once/Parent"
+// import Container from "./9.Side-Effects/4.Cleanup-Task/Container"
+// import Parent from "./9.Side-Effects/2.Runs-Conditionally/Parent"
+// import Parent from "./9.Side-Effects/1.Default-Behaviour/Parent"
+// import Parent from "./8.Portals/Parent"
 // import SignUp from "./7.CSS/3.Modules/SignUp"
 // import Login from "./7.CSS/3.Modules/Login"
 // import Parent from "./7.CSS/Css-BasedOn-Condition/Parent"
@@ -78,7 +83,13 @@ class App extends React.Component{
       {/* <SignUp />
       <Login/> */}
       {/* <Parent/> */}
+      {/* <Parent/> */}
+      {/* <Parent/> */}
+      {/* <Parent/> */}
+      {/* <Parent/> */}
+      {/* <Container/> */}
       <Parent/>
+
     </React.Fragment>
   }
 }
