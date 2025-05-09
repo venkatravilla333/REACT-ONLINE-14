@@ -22,7 +22,12 @@
 // export default App
 
 import React from "react"
-import Parent from "./9.Side-Effects/5.Api-Calls (get-request)/Parent"
+import A from "./3.State/Async-Data/4.Global-State/3.Redux-Concept/React-Components/A"
+// import A from "./3.State/Async-Data/4.Global-State/2.Context-Api-useReducer/A"
+// import A from "./3.State/Async-Data/4.Global-State/1.Context-Api-useState/A"
+// import A from "./3.State/Async-Data/1.Local-State/2.Complex-Data/A"
+// import Parent from "./9.Side-Effects/5.Api-Calls (get-request)/Parent"
+// import A from "./3.State/Async-Data/1.Local-State/1.Simple-Data/A"
 // import Parent from "./9.Side-Effects/3.Runs-Only-Once/Parent"
 // import Container from "./9.Side-Effects/4.Cleanup-Task/Container"
 // import Parent from "./9.Side-Effects/2.Runs-Conditionally/Parent"
@@ -88,8 +93,10 @@ class App extends React.Component{
       {/* <Parent/> */}
       {/* <Parent/> */}
       {/* <Container/> */}
-      <Parent/>
-
+      {/* <Parent/> */}
+      {/* <A/> */}
+      {/* <A/> */}
+      <A/>
     </React.Fragment>
   }
 }
