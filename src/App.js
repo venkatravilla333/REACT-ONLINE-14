@@ -22,7 +22,15 @@
 // export default App
 
 import React from "react"
-import A from "./3.State/Async-Data/4.Global-State/4.Redux-Toolkit/React-Components/A"
+import Variables from "./10.Nv vs Sv vs Rv/Variables"
+import Input from "./11.Refs/Refer-Dom-Element/Input"
+import Timer from "./11.Refs/Refer-Value/Timer"
+import Count1 from "./5.Performance/3.How-to-remove-duplicate-logic/Count1"
+import Count2 from "./5.Performance/3.How-to-remove-duplicate-logic/Count2"
+import Count3 from "./5.Performance/3.How-to-remove-duplicate-logic/Count3"
+import Home from "./12.Routing/Home"
+import Parent from "./12.Routing/Parent"
+// import A from "./3.State/Async-Data/4.Global-State/4.Redux-Toolkit/React-Components/A"
 // import A from "./3.State/Async-Data/4.Global-State/2.Context-Api-useReducer/A"
 // import A from "./3.State/Async-Data/4.Global-State/3.Redux-Concept/React-Components/A"
 // import A from "./3.State/Async-Data/4.Global-State/2.Context-Api-useReducer/A"
@@ -99,7 +107,14 @@ class App extends React.Component{
       {/* <A/> */}
       {/* <A/> */}
       {/* <A/> */}
-      <A/>
+      {/* <A/> */}
+      {/* <Variables/> */}
+      {/* <Input/> */}
+      {/* <Timer/> */}
+      {/* <Count1 />
+      <Count2 />
+      <Count3/> */}
+      <Parent/>
     </React.Fragment>
   }
 }
