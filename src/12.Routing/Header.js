@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import {Link} from 'react-router-dom'
+import {Link, NavLink} from 'react-router-dom'
 
 function Header() {
   return (
@@ -9,11 +9,12 @@ function Header() {
         <h3>Logo</h3>
       </div>
       <div className='links-div'>
-      <Link to="/home">Home</Link>
+
+      <NavLink to="/">Home</NavLink>
      
-      <Link to="/about">About</Link>
+        <NavLink to="/about" style={({ isActive }) => (isActive ? { color: 'blue' } : undefined)}>About</NavLink>
    
-      <Link to="/products">Products</Link>
+      <NavLink to="/products">Products</NavLink>
       </div>
     </div>
   )
