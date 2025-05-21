@@ -1,5 +1,7 @@
 import React, { useCallback, useMemo, useState } from 'react'
 import Child from './Child'
+import HeavyCal from './HeavyCal'
+import ListRendering from './ListRendering'
 
 function Parent() {
   var [count, setCount] = useState(0)
@@ -68,8 +70,8 @@ function Parent() {
 
   return (
     <div>
-      <h2>Count: {count}</h2>
-      <button onClick={updateCount}>update count</button>
+      {/* <h2>Count: {count}</h2>
+      <button onClick={updateCount}>update count</button> */}
       {/* <Child num={num} /> */}
       {/* <Child name={name} /> */}
       {/* <Child nums={nums} /> */}
@@ -99,7 +101,9 @@ function Parent() {
       <button onClick={updateNums}>update nums</button>
       <Child nums={nums} /> */}
       {/* <Child nums = {updateNums} /> */}
-      <Child nums = {memoize} />
+      {/* <Child nums = {memoize} /> */}
+      {/* <HeavyCal/> */}
+      <ListRendering/>
     </div>
 
   )

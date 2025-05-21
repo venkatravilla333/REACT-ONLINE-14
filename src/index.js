@@ -12,8 +12,8 @@ let root = ReactDom.createRoot(div)
 
 root.render(
   // <BrowserRouter>
-  // <App />
-  <Parent/>
+  <App />
+  // <Parent/>
   // </BrowserRouter>
 )
 
