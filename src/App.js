@@ -22,8 +22,12 @@
 // export default App
 
 import React from "react"
-import Controlled from "./11.Refs/Controlled"
-import Uncontrolled from "./11.Refs/Uncontrolled"
+import Parent from "./ClassComponents/Events-Binding/Parent"
+// import Parent from "./ClassComponents/Destructuring/Parent"
+// import Parent from "./ClassComponents/Props/Parent"
+// import Controlled from "./11.Refs/Controlled"
+// import Uncontrolled from "./11.Refs/Uncontrolled"
+// import Parent from "./ClassComponents/Component/Parent"
 // import Variables from "./10.Nv vs Sv vs Rv/Variables"
 // import Input from "./11.Refs/Refer-Dom-Element/Input"
 // import Timer from "./11.Refs/Refer-Value/Timer"
@@ -118,8 +122,14 @@ class App extends React.Component{
       <Count2 />
       <Count3/> */}
       {/* <Parent/> */}
-      <Controlled />
-      <Uncontrolled/>
+      {/* <Controlled />
+      <Uncontrolled/> */}
+      {/* {
+        new Parent().render()
+      } */}
+      {/* <Parent/> */}
+      {/* <Parent/> */}
+     <Parent/>
     </React.Fragment>
   }
 }
