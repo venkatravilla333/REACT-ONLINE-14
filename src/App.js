@@ -22,7 +22,10 @@
 // export default App
 
 import React from "react"
-import Parent from "./ClassComponents/Events-Binding/Parent"
+import A from "./ClassComponents/Redux-React/React-Components/A"
+// import Parent from "./ClassComponents/State/Parent"
+// import A from "./ClassComponents/Content-Api/A"
+// import Parent from "./ClassComponents/Events-Binding/Parent"
 // import Parent from "./ClassComponents/Destructuring/Parent"
 // import Parent from "./ClassComponents/Props/Parent"
 // import Controlled from "./11.Refs/Controlled"
@@ -129,7 +132,10 @@ class App extends React.Component{
       } */}
       {/* <Parent/> */}
       {/* <Parent/> */}
-     <Parent/>
+      {/* <Parent/> */}
+      {/* <Parent/> */}
+      {/* <A/> */}
+      <A/>
     </React.Fragment>
   }
 }
