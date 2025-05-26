@@ -22,7 +22,18 @@
 // export default App
 
 import React from "react"
-import A from "./ClassComponents/Redux-React/React-Components/A"
+import Parent from "./ClassComponents/Life-Cycle-Methods/4.ErrorBoundry/Parent"
+// import Parent from "./ClassComponents/Life-Cycle-Methods/2.Updating/Parent"
+// import Render from "./ClassComponents/Performance/3.How-to-remove-duplicate-logic/Render-props/Render"
+// import Count1 from "./ClassComponents/Performance/3.How-to-remove-duplicate-logic/HOC/Count1"
+// import Count2 from "./ClassComponents/Performance/3.How-to-remove-duplicate-logic/HOC/Count2"
+// import Count3 from "./ClassComponents/Performance/3.How-to-remove-duplicate-logic/HOC/Count3"
+// import Parent from "./ClassComponents/Life-Cycle-Methods/1.Mounting/Parent"
+// import Count1 from "./ClassComponents/Performance/3.How-to-remove-duplicate-logic/HOC/Count1"
+// import Count2 from "./ClassComponents/Performance/3.How-to-remove-duplicate-logic/Count2"
+// import Count3 from "./ClassComponents/Performance/3.How-to-remove-duplicate-logic/Count3"
+// import Render from "./ClassComponents/Performance/3.How-to-remove-duplicate-logic/Render-props/Render"
+// import A from "./ClassComponents/Redux-React/React-Components/A"
 // import Parent from "./ClassComponents/State/Parent"
 // import A from "./ClassComponents/Content-Api/A"
 // import Parent from "./ClassComponents/Events-Binding/Parent"
@@ -135,7 +146,22 @@ class App extends React.Component{
       {/* <Parent/> */}
       {/* <Parent/> */}
       {/* <A/> */}
-      <A/>
+      {/* <A/> */}
+      {/* <Count1 />
+      <Count2 />
+      <Count3/> */}
+      {/* <Render test={(count, changeCount) => {
+        return <Count1 count={count} changeCount={changeCount} />
+      }} />
+      <Render test={(count, changeCount) => {
+        return <Count2 count={count} changeCount={changeCount} />
+      }} />
+      <Render test={(count, changeCount) => {
+        return <Count3 count={count} changeCount={changeCount} />
+      }} /> */}
+      {/* <Parent/> */}
+      {/* <Parent/> */}
+      <Parent/>
     </React.Fragment>
   }
 }
