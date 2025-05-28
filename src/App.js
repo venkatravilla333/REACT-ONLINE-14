@@ -22,7 +22,12 @@
 // export default App
 
 import React from "react"
-import Parent from "./ClassComponents/Life-Cycle-Methods/4.ErrorBoundry/Parent"
+import Parent from "./ClassComponents/Side-Effects/3.Runs-Only-Once/Parent"
+import Container from "./ClassComponents/Side-Effects/4.Cleanup-Task/Container"
+import GetData from "./ClassComponents/Side-Effects/GetData"
+// import Parent from "./ClassComponents/Side-Effects/2.Runs-Conditionally/Parent"
+// import Parent from "./ClassComponents/Side-Effects/1.Default-Behaviour/Parent"
+// import Parent from "./ClassComponents/Life-Cycle-Methods/4.ErrorBoundry/Parent"
 // import Parent from "./ClassComponents/Life-Cycle-Methods/2.Updating/Parent"
 // import Render from "./ClassComponents/Performance/3.How-to-remove-duplicate-logic/Render-props/Render"
 // import Count1 from "./ClassComponents/Performance/3.How-to-remove-duplicate-logic/HOC/Count1"
@@ -161,7 +166,12 @@ class App extends React.Component{
       }} /> */}
       {/* <Parent/> */}
       {/* <Parent/> */}
-      <Parent/>
+      {/* <Parent/> */}
+      {/* <Parent/> */}
+      {/* <Parent/> */}
+      {/* <Parent/> */}
+      {/* <Container/> */}
+      <GetData/>
     </React.Fragment>
   }
 }
