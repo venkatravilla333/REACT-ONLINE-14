@@ -22,9 +22,12 @@
 // export default App
 
 import React from "react"
-import Parent from "./ClassComponents/Side-Effects/3.Runs-Only-Once/Parent"
-import Container from "./ClassComponents/Side-Effects/4.Cleanup-Task/Container"
-import GetData from "./ClassComponents/Side-Effects/GetData"
+import Parent from "./ClassComponents/Refs/Forward-Ref/Parent"
+// import Parent from "./ClassComponents/Refs/To-Child-Component/Parent"
+// import Parent from "./ClassComponents/Refs/To-Dom-Element/Parent"
+// import Parent from "./ClassComponents/Side-Effects/3.Runs-Only-Once/Parent"
+// import Container from "./ClassComponents/Side-Effects/4.Cleanup-Task/Container"
+// import GetData from "./ClassComponents/Side-Effects/GetData"
 // import Parent from "./ClassComponents/Side-Effects/2.Runs-Conditionally/Parent"
 // import Parent from "./ClassComponents/Side-Effects/1.Default-Behaviour/Parent"
 // import Parent from "./ClassComponents/Life-Cycle-Methods/4.ErrorBoundry/Parent"
@@ -171,7 +174,10 @@ class App extends React.Component{
       {/* <Parent/> */}
       {/* <Parent/> */}
       {/* <Container/> */}
-      <GetData/>
+      {/* <GetData/> */}
+      {/* <Parent/> */}
+      {/* <Parent/> */}
+      <Parent/>
     </React.Fragment>
   }
 }
